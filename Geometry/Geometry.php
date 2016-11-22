@@ -34,7 +34,6 @@ abstract class Geometry
         $c12Distance = self::getDistance($c1, $c2);
         $c13Distance = self::getDistance($c1, $c3);
         $c23Distance = self::getDistance($c2, $c3);
-
         $rad = acos(
             (
                 pow($c12Distance, 2) +

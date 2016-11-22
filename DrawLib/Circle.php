@@ -53,4 +53,15 @@ class Circle extends Shape
     {
         return $this->color;
     }
+
+    /**
+     * valid is shape is a rectangle
+     *    
+     * @return boolean
+     */
+    public function isValid() 
+    {
+        echo 'toto';
+    }
+        
 }
