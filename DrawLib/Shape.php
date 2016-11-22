@@ -16,7 +16,7 @@ abstract class Shape implements ShapeInterface
      * 
      * @param string $color
      */
-    public function __construct($color = '#000000')
+    public function __construct($color)
     {
         $this->color = $color;
     }
@@ -27,5 +27,12 @@ abstract class Shape implements ShapeInterface
      * @return double
      */
     abstract public function getArea();    
+
+    /**
+     * Valids if shape is correct
+     *    
+     * @return boolean
+     */
+    abstract public function isValid();        
 }
 
